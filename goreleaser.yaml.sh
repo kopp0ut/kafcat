@@ -6,6 +6,7 @@ build:
   goos:
     - linux
     - darwin
+    - windows
   goarch:
     - amd64
     - 386
@@ -15,4 +16,5 @@ archive:
     amd64: amd64
     darwin: darwin
     linux: linux
+    windows: windows
 EOF
